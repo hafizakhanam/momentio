@@ -1,11 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TopBanner from "./components/TopBanner/TopBanner";
+import Services from "./components/Services/Services";
+import TopNavigation from "./components/TopNavigation/TopNavigation";
+import Analysis from "./components/Analysis/Analysis";
+import Summary from "./components/Summary/Summary";
+import RecentProjects from "./components/RecentProjects/RecentProjects"
+import Courses from "./components/Courses/Courses";
+import Video from "./components/Video/Video";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Rima</h1>
-      <img src={logo} alt="Logo" />
+    <div>
+<TopNavigation/>
+<TopBanner/>
+<Services/>
+<Analysis/>
+<Summary/>
+<RecentProjects/>
+<Courses/>
+<Video/>
     </div>
   );
 }
