@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/momentio/static/css/main.05cb5602.chunk.css",
-    "main.js": "/momentio/static/js/main.4f9066e6.chunk.js",
-    "main.js.map": "/momentio/static/js/main.4f9066e6.chunk.js.map",
+    "main.css": "/momentio/static/css/main.c4d6a70a.chunk.css",
+    "main.js": "/momentio/static/js/main.ebaf5b24.chunk.js",
+    "main.js.map": "/momentio/static/js/main.ebaf5b24.chunk.js.map",
     "runtime-main.js": "/momentio/static/js/runtime-main.484798cd.js",
     "runtime-main.js.map": "/momentio/static/js/runtime-main.484798cd.js.map",
-    "static/css/2.2917f8ca.chunk.css": "/momentio/static/css/2.2917f8ca.chunk.css",
-    "static/js/2.0db37665.chunk.js": "/momentio/static/js/2.0db37665.chunk.js",
-    "static/js/2.0db37665.chunk.js.map": "/momentio/static/js/2.0db37665.chunk.js.map",
+    "static/css/2.fe1cd4c7.chunk.css": "/momentio/static/css/2.fe1cd4c7.chunk.css",
+    "static/js/2.35d32c14.chunk.js": "/momentio/static/js/2.35d32c14.chunk.js",
+    "static/js/2.35d32c14.chunk.js.map": "/momentio/static/js/2.35d32c14.chunk.js.map",
     "static/js/3.c0f5e04f.chunk.js": "/momentio/static/js/3.c0f5e04f.chunk.js",
     "static/js/3.c0f5e04f.chunk.js.map": "/momentio/static/js/3.c0f5e04f.chunk.js.map",
     "index.html": "/momentio/index.html",
-    "static/css/2.2917f8ca.chunk.css.map": "/momentio/static/css/2.2917f8ca.chunk.css.map",
-    "static/css/main.05cb5602.chunk.css.map": "/momentio/static/css/main.05cb5602.chunk.css.map",
-    "static/js/2.0db37665.chunk.js.LICENSE.txt": "/momentio/static/js/2.0db37665.chunk.js.LICENSE.txt",
+    "static/css/2.fe1cd4c7.chunk.css.map": "/momentio/static/css/2.fe1cd4c7.chunk.css.map",
+    "static/css/main.c4d6a70a.chunk.css.map": "/momentio/static/css/main.c4d6a70a.chunk.css.map",
+    "static/js/2.35d32c14.chunk.js.LICENSE.txt": "/momentio/static/js/2.35d32c14.chunk.js.LICENSE.txt",
     "static/media/custom.css": "/momentio/static/media/banner.9b13087b.jpg",
     "static/media/course-1.e426c301.jpg": "/momentio/static/media/course-1.e426c301.jpg",
     "static/media/course-2.1aeab49b.jpg": "/momentio/static/media/course-2.1aeab49b.jpg",
@@ -28,9 +28,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.484798cd.js",
-    "static/css/2.2917f8ca.chunk.css",
-    "static/js/2.0db37665.chunk.js",
-    "static/css/main.05cb5602.chunk.css",
-    "static/js/main.4f9066e6.chunk.js"
+    "static/css/2.fe1cd4c7.chunk.css",
+    "static/js/2.35d32c14.chunk.js",
+    "static/css/main.c4d6a70a.chunk.css",
+    "static/js/main.ebaf5b24.chunk.js"
   ]
 }
