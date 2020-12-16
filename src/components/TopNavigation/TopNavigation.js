@@ -11,16 +11,17 @@ class TopNavigation extends Component {
         this.state={
             navBarTitle:"navTitle",
             navBarLogo:[whiteLogo],
+            navVariant:"dark",
             navBarBack:"navBackground",
             navBarItem:"navItem"
         }
     }
     onScroll=()=>{
         if(window.scrollY>100){
-            this.setState({navBarTitle:'navTitleScroll', navBarLogo:[blueLogo], navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
+            this.setState({navVariant:'light', navBarTitle:'navTitleScroll', navBarLogo:[blueLogo], navBarBack:'navBackgroundScroll',navBarItem:'navItemScroll'})
         }
         else if(window.scrollY<100){
-            this.setState({navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem'})
+            this.setState({navVariant:'dark',navBarTitle:'navTitle',navBarLogo:[whiteLogo],navBarBack:'navBackground',navBarItem:'navItem'})
         }
     }
     componentDidMount() {
@@ -29,8 +30,8 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navBarBack} fixed="top" collapseOnSelect expand="lg" variant="dark">
-                    <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/> Rabbil Hasan</Navbar.Brand>
+                <Navbar variant={this.state.navVariant} className={this.state.navBarBack} fixed="top" collapseOnSelect expand="lg">
+                    <Navbar.Brand className={this.state.navBarTitle}><img src={this.state.navBarLogo}/>Momentio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
