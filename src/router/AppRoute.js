@@ -12,12 +12,12 @@ class AppRoute extends Component {
         return (
             <Fragment>
                 <Switch>
-                    <Route exact path="/" component={HomePage} />
-                    <Route exact path="/service" component={ServicePage} />
-                    <Route exact path="/course" component={CoursesPage} />
-                    <Route exact path="/portfolio" component={PortfolioPage} />
-                    <Route exact path="/contact" component={ContactPage} />
-                    <Route exact path="/about" component={AboutPage} />
+                    <Route exact path="/momentio" component={HomePage} />
+                    <Route exact path="/momentio/service" component={ServicePage} />
+                    <Route exact path="/momentio/course" component={CoursesPage} />
+                    <Route exact path="/momentio/portfolio" component={PortfolioPage} />
+                    <Route exact path="/momentio/contact" component={ContactPage} />
+                    <Route exact path="/momentio/about" component={AboutPage} />
                 </Switch>
             </Fragment>
         );
