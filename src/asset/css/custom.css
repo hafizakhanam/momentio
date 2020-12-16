@@ -1,3 +1,8 @@
+:global {
+@import 'node_modules/slick-carousel/slick/slick';
+@import "node_modules/slick-carousel/slick/slick.css";
+@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+}
 .topFixedBanner{
     background-image: url("../image/banner.jpg");
     min-height: 500px;
@@ -232,4 +237,59 @@
     color: #0073E6;
     font-size: 22px;
     font-weight: 600;
+}
+
+.circleImage {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #0073E6;
+    border-radius: 50%;
+
+}
+
+.footer {
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+
+.socialLink {
+    text-decoration: none;
+    color: #0073E6;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.socialLink:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.footerLink {
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #7F7E7E;
+}
+.footerLink:hover {
+    text-decoration: none;
+    color: #0073E6;
+}
+
+.copyright {
+    padding: 20px;
+    background-color: #0073E6;
+}
+
+.copyrightLink {
+    text-decoration: none;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.copyrightLink:hover {
+    text-decoration: none;
+    color: #000;
 }
