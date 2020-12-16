@@ -5,14 +5,12 @@ class PageTop extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="topFixedBanner p-0" >
-                    <div className="topBannerOverlay">
-                        <Container className="topContent">
+                <Container fluid={true} className="topFixedPage p-0" >
+                    <div className="topPageOverlay">
+                        <Container className="topPageContent">
                             <Row>
                                 <Col className="text-center">
-                                    <h1 className="topTitle">PROPERTY</h1>
-                                    <h4 className="topSubTitle">MAINTENANCE</h4>
-                                    <Button variant="primary">More Info</Button>
+                                    <h4 className="pageTitle">{this.props.pagetitle}</h4>
                                 </Col>
                             </Row>
                         </Container>

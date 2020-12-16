@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9526af84-54a7-4fed-81bc-d4a3294174f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PageTop/PageTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutDescription/AboutDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AllCourses/AllCourses.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AllProjects/AllProjects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/AboutPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CoursesPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PortfolioPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ServicePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/AppRoute.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RecentProjects/RecentProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentProjects/RecentProjects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TopBanner/TopBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopBanner/TopBanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Courses/Courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PageTop/PageTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageTop/PageTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TopNavigation/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNavigation/TopNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608107108366</updated>
-      <workItem from="1608107111629" duration="14335000" />
+      <workItem from="1608107111629" duration="22621000" />
     </task>
     <servers />
   </component>

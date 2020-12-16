@@ -5,12 +5,11 @@ import course2 from "../../asset/image/course-2.jpg";
 import course3 from "../../asset/image/course-3.jpg";
 import course4 from "../../asset/image/course-4.jpg";
 
-class Courses extends Component {
+class AllCourses extends Component {
     render() {
         return (
             <Fragment>
-                <Container className="text-center">
-                    <h1 className="serviceMainTitle">OUR COURSES</h1>
+                <Container className="text-center mt-5">
                     <Row>
                         <Col lg={6} md={12}>
                             <Row>
@@ -70,10 +69,9 @@ class Courses extends Component {
                         </Col>
                     </Row>
                 </Container>
-
             </Fragment>
         );
     }
 }
 
-export default Courses;
+export default AllCourses;

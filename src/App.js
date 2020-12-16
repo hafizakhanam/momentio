@@ -1,12 +1,13 @@
 import React from 'react';
-import HomePage from "./pages/HomePage";
-
+import ServicePage from "./pages/ServicePage";
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./router/AppRoute";
 
 function App() {
   return (
-    <div>
-        <HomePage/>
-    </div>
+    <BrowserRouter>
+        <AppRoute/>
+    </BrowserRouter>
   );
 }
 
