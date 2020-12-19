@@ -12,7 +12,7 @@ class AllProjects extends Component {
                     <Row>
                         <Col sm={12} md={6} lg={4} className="p-2">
                             <Card className="projectCard">
-                                <Card.Img variant="top" src={project1} />
+                                <Card.Img variant="top" className="projectImg" src={project1} />
                                 <Card.Body>
                                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                                     <Card.Text className="projectCardDes">
@@ -28,7 +28,7 @@ class AllProjects extends Component {
                         <Col sm={12} md={6} lg={4} className="p-2">
 
                             <Card className="projectCard">
-                                <Card.Img variant="top" src={project2} />
+                                <Card.Img variant="top" className="projectImg" src={project2} />
                                 <Card.Body>
                                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                                     <Card.Text className="projectCardDes">
@@ -43,7 +43,7 @@ class AllProjects extends Component {
                         <Col sm={12} md={6} lg={4} className="p-2">
 
                             <Card className="projectCard">
-                                <Card.Img variant="top" src={project3} />
+                                <Card.Img variant="top" className="projectImg" src={project3} />
                                 <Card.Body>
                                     <Card.Title className="projectCardTitle">Card Title</Card.Title>
                                     <Card.Text className="projectCardDes">

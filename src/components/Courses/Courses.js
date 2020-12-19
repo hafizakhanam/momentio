@@ -10,9 +10,9 @@ class Courses extends Component {
         return (
             <Fragment>
                 <Container className="text-center">
-                    <h1 className="serviceMainTitle">OUR COURSES</h1>
+                    <h1 className="serviceMainTitle">OUR CATEGORIES</h1>
                     <Row>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course1} />
@@ -26,7 +26,7 @@ class Courses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course2} />
@@ -40,7 +40,7 @@ class Courses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course3} />
@@ -54,7 +54,7 @@ class Courses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course4} />

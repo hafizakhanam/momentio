@@ -145,7 +145,10 @@
 .countSection{
     margin-top: 16%;
 }
-
+.projectImg{
+    max-width: 150px !important;
+    margin: 50px auto;
+}
 .cardTitle{
     font-weight: 600;
     font-size: 22px;
@@ -219,7 +222,9 @@
 .courseDetails:hover {
     text-decoration: none;
 }
-
+.courseWrapper {
+    margin-bottom: 30px;
+}
 .videoCard{
     box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
     padding: 6rem 3rem;

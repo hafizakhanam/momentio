@@ -21,7 +21,7 @@ class Video extends Component {
                 <Container className="text-center">
                     <Row>
                         <Col lg={12} md={12} sm={12} className="videoCard">
-                            <h5 className="videoTitle">How I Do</h5>
+                            <h5 className="videoTitle">How We Do</h5>
                             <p className="courseDes">It was popularised in the 1960s with the release of Letraset sheets containing
                                 Lorem Ipsum passages, and more recently with desktop publishing software like
                                 Aldus PageMaker including versions of Lorem Ipsum.</p>

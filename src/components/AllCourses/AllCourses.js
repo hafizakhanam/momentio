@@ -11,7 +11,7 @@ class AllCourses extends Component {
             <Fragment>
                 <Container className="text-center mt-5">
                     <Row>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course1} />
@@ -25,7 +25,7 @@ class AllCourses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course2} />
@@ -39,7 +39,7 @@ class AllCourses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course3} />
@@ -53,7 +53,7 @@ class AllCourses extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg={6} md={12}>
+                        <Col lg={6} md={12} className="courseWrapper">
                             <Row>
                                 <Col lg={6} md={6} sm={12}>
                                     <img className="courseImg" src={course4} />

@@ -55,7 +55,7 @@ class Summary extends Component {
                                 <Col lg={4} md={6} sm={12}>
                                     <Card className="workCard">
                                         <Card.Body>
-                                            <Card.Title className="cardTitle text-justify">How i Work</Card.Title>
+                                            <Card.Title className="cardTitle text-justify">How We Work</Card.Title>
                                             <Card.Text>
                                                 <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> Requirement Gathering </p>
                                                 <p className="cardSubTitle text-justify"><FontAwesomeIcon className="iconBullet" icon={faCheckCircle} /> System Analysis </p>

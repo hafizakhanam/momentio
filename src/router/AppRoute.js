@@ -14,7 +14,7 @@ class AppRoute extends Component {
                 <Switch>
                     <Route exact path="/momentio" component={HomePage} />
                     <Route exact path="/momentio/service" component={ServicePage} />
-                    <Route exact path="/momentio/course" component={CoursesPage} />
+                    <Route exact path="/momentio/category" component={CoursesPage} />
                     <Route exact path="/momentio/portfolio" component={PortfolioPage} />
                     <Route exact path="/momentio/contact" component={ContactPage} />
                     <Route exact path="/momentio/about" component={AboutPage} />

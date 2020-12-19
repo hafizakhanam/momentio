@@ -42,7 +42,7 @@ class TopNavigation extends Component {
                         <Nav>
                             <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio">HOME</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/service">SERVICES</NavLink></Nav.Link>
-                            <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/course">COURSES</NavLink></Nav.Link>
+                            <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/category">CATEGORIES</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/portfolio">PORTFOLIO</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/contact">CONTACT</NavLink></Nav.Link>
                             <Nav.Link><NavLink exact activeStyle={{color:'#00a8ee'}} className={this.state.navBarItem} to="/momentio/about">ABOUT</NavLink></Nav.Link>

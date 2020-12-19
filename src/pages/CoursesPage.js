@@ -9,7 +9,7 @@ class CoursesPage extends Component {
         return (
             <Fragment>
                 <TopNavigation title="Course" />
-                <PageTop pagetitle="All Courses"/>
+                <PageTop pagetitle="All Categories"/>
                 <AllCourses/>
                 <Footer/>
             </Fragment>

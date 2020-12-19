@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9526af84-54a7-4fed-81bc-d4a3294174f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/asset/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/asset/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllProjects/AllProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllProjects/AllProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Courses/Courses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Courses/Courses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RecentProjects/RecentProjects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RecentProjects/RecentProjects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Summary/Summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Summary/Summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TopNavigation/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TopNavigation/TopNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/Video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CoursesPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/AppRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/AppRoute.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608107108366</updated>
-      <workItem from="1608107111629" duration="23249000" />
+      <workItem from="1608107111629" duration="24539000" />
+      <workItem from="1608356972719" duration="2417000" />
     </task>
     <servers />
   </component>
@@ -59,5 +71,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
