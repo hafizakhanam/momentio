@@ -3,6 +3,7 @@ import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import project1 from "../../asset/image/project-1.png";
 import project2 from "../../asset/image/project-2.png";
 import project3 from "../../asset/image/project-3.png";
+import {Link} from "react-router-dom";
 
 class AllProjects extends Component {
     render() {
@@ -19,7 +20,7 @@ class AllProjects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="project-btn" to="./ProjectDetails">Details</Link></Button>
                                 </Card.Body>
                             </Card>
 
@@ -35,7 +36,7 @@ class AllProjects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="project-btn" to="./ProjectDetails">Details</Link></Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -50,7 +51,7 @@ class AllProjects extends Component {
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
                                     </Card.Text>
-                                    <Button variant="primary">Details</Button>
+                                    <Button variant="primary"><Link className="project-btn" to="./ProjectDetails">Details</Link></Button>
                                 </Card.Body>
                             </Card>
                         </Col>

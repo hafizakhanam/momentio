@@ -66,12 +66,20 @@
     color: #ffffff !important;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
+}
+.navTitle:hover{
+    text-decoration: none;
 }
 .navTitleScroll{
     font-family: 'Montserreat',sans-serif;
     color: #0073E6 !important;
     font-weight: 700;
     font-size: 24px;
+    text-decoration: none;
+}
+.navTitleScroll:hover{
+    text-decoration: none;
 }
 .navBackground{
     -webkit-transition:background-color 400ms linear ;
@@ -86,6 +94,7 @@
     -o-transition:background-color 400ms linear ;
     transition:background-color 400ms linear ;
     background-color: #ffffff !important;
+    box-shadow: 0 0 6px 0 rgb(0,115,230,0.3);
 }
 
 .navItem{
@@ -316,7 +325,10 @@
 .topPageContent{
     margin-top: 9rem;
 }
-
+.topPageContentCourse{
+    margin-top: 5rem;
+    color: #fff;
+}
 .pageTitle{
     font-family: 'Raleway',sans-serif;
     font-weight: 600;
@@ -328,4 +340,13 @@
     border-radius: 5px !important;
     border-color: #0073E6 !important;
     box-shadow: 0 0 4px 0 rgba(0,115,230,0.2) !important;
+}
+
+.project-btn {
+    text-decoration: none;
+    color: #fff !important;
+}
+.project-btn:hover {
+    text-decoration: none;
+    color: #fff !important;
 }

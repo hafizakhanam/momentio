@@ -4,6 +4,7 @@ import course1 from "../../asset/image/course-1.jpg";
 import course2 from "../../asset/image/course-2.jpg";
 import course3 from "../../asset/image/course-3.jpg";
 import course4 from "../../asset/image/course-4.jpg";
+import {Link} from "react-router-dom";
 
 class AllCourses extends Component {
     render() {
@@ -21,7 +22,7 @@ class AllCourses extends Component {
                                     <p className="text-justify courseDes">It was popularised in the 1960s with the release of Letraset sheets containing
                                         Lorem Ipsum passages, and more recently with desktop publishing software like
                                         Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <a className="text-justify courseDetails float-left" href="#">Details</a>
+                                    <Link className="text-justify courseDetails float-left" to="./categoryDetails">Details</Link>
                                 </Col>
                             </Row>
                         </Col>
@@ -35,7 +36,7 @@ class AllCourses extends Component {
                                     <p className="text-justify courseDes">It was popularised in the 1960s with the release of Letraset sheets containing
                                         Lorem Ipsum passages, and more recently with desktop publishing software like
                                         Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <a className="text-justify courseDetails float-left" href="#">Details</a>
+                                    <Link className="text-justify courseDetails float-left" to="./categoryDetails">Details</Link>
                                 </Col>
                             </Row>
                         </Col>
@@ -49,7 +50,7 @@ class AllCourses extends Component {
                                     <p className="text-justify courseDes">It was popularised in the 1960s with the release of Letraset sheets containing
                                         Lorem Ipsum passages, and more recently with desktop publishing software like
                                         Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <a className="text-justify courseDetails float-left" href="#">Details</a>
+                                    <Link className="text-justify courseDetails float-left" to="./categoryDetails">Details</Link>
                                 </Col>
                             </Row>
                         </Col>
@@ -63,7 +64,7 @@ class AllCourses extends Component {
                                     <p className="text-justify courseDes">It was popularised in the 1960s with the release of Letraset sheets containing
                                         Lorem Ipsum passages, and more recently with desktop publishing software like
                                         Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                    <a className="text-justify courseDetails float-left" href="#">Details</a>
+                                    <Link className="text-justify courseDetails float-left" to="./categoryDetails">Details</Link>
                                 </Col>
                             </Row>
                         </Col>
